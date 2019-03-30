@@ -1,0 +1,132 @@
+.backdropimage{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+}
+
+
+.backdrop2{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.85;
+}
+
+.topoption{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 25%;
+  left: 75%;
+  margin-top: 3%;
+}
+
+.x{
+  width:20%;
+  margin-right: -5%;
+}
+
+.umbao{
+  width: 30%;
+}
+
+.slogan{
+  margin-left: 15%;
+  width: 30%;
+}
+
+.play{
+  margin-top:4%;
+  width: 6%;
+  margin-bottom: -5%;
+
+}
+.bottom1{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.bottom2{
+  width: 40%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.svg1{
+  
+}
+@media only screen and (max-width: 1050px){
+
+.topoption{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 40%;
+  left: 60%;
+}
+.slogan{
+  margin-left: 15%;
+  width: 40%;
+}
+.svg1{
+  width: 10%;
+}
+
+
+ 
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+
+.topoption{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  left: 0%;
+  margin-bottom: 10%;
+}
+.svg1{
+  width: 20%;
+}
+
+
+.x{
+   width: 80%;
+}
+.umbao{
+  width: 90%;
+}
+.slogan{
+  margin-left: 0%;
+  width: 70%;
+}
+
+.play{
+  margin-top:2%;
+  width: 20%;
+  margin-bottom: 0%;
+}
+.bottom1{
+ width: 100%; 
+ display:flex;
+ flex-direction: row; 
+
+}
+.bottom2{
+  display: none;
+}
+ 
+}
